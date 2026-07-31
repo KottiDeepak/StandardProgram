@@ -13,5 +13,4 @@ public class ToCheckLeapYear {
 		String leap=(year%4==0)? "It is a leap year":"It is not a leap year";
 		System.out.println(leap);
 	}
-
 }

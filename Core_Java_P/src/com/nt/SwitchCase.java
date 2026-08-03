@@ -11,10 +11,10 @@ public class SwitchCase {
 				System.out.println("mango");
 				yield "A";
 			}
-			case 2-> "B";
-			case 3-> "C";
-			case 4-> "D";
-			case 5-> "E";
+			case 2 -> "B";
+			case 3 -> "C";
+			case 4 -> "D";
+			case 5 -> "E";
 			default -> "Enter valid Input";
 		};
 		System.out.println(result);

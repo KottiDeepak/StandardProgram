@@ -1,3 +1,4 @@
+//waptp to print the sum of the digits.
 package WhileLoopPrograms;
 
 import java.util.Scanner;
@@ -9,7 +10,7 @@ public class SumOfTheDigits {
 		int n=sc.nextInt();
 		int sum=0;
 		int ld;
-		while(n!=0)
+		while(n!=0)//or we can use while (n>0).
 		{
 			ld=n%10;
 			sum=sum+ld;

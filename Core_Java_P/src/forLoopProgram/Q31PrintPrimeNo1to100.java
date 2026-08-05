@@ -1,3 +1,4 @@
+//waptp the prime number between 1 to 100.
 package forLoopProgram;
 
 public class Q31PrintPrimeNo1to100 {

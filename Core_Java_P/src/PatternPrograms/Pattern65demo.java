@@ -6,7 +6,7 @@ public class Pattern65demo {
 
 			for (int j = 1; j <= 5; j++) {
 
-				if (i <= j) {
+				if (i >= j) {
 
 					System.out.print(" * ");
 				}

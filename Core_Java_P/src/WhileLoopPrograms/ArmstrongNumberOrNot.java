@@ -10,13 +10,7 @@ public class ArmstrongNumberOrNot {
 		int temp=num;
 		// step 1 : count he number of digits using temp.
 		int count=0;
-		while(temp!=0)
-		{
-			count++;
-			temp=temp/10;
-		}
-		temp=num;
-		//step 2 : find the sum of the digits with power of count.w
+		 
 		double sum=0;
 		while (temp!=0)
 		{

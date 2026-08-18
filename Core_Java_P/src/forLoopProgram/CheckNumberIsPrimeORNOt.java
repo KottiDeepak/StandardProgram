@@ -1,4 +1,4 @@
-// write a java program to printn to check the number is prime or not 
+// write a java program to print to check the number is prime or not 
 import java.util.Scanner;
 
 public class CheckNumberIsPrimeORNOt {

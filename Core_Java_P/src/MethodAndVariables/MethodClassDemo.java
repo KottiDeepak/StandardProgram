@@ -2,10 +2,11 @@ package MethodAndVariables;
 
 public class MethodClassDemo {
 	public static void main(String[] args) {
-		System.out.println(getPi());
+		MethodClassDemo obj=new MethodClassDemo();
+		System.out.println(obj.getPi());
 		
 	}
-	public static int getPi()
+	 int getPi()
 	{
 		System.out.println("hello");
 		int i=10;

@@ -1,50 +1,63 @@
 package interfaceDemo;
-
 public class InterfaceDemo01 {
-
-}
-abstract class Device
-{
-	public abstract void turnOn();
-	public abstract void turnOff();
-	
-}
-abstract class BluetoothDevice
-{
-	public abstract void connectToWifi();
-	
-}
-class Speaker extends Device,BluetoothDevice
-{
-	
-}
-class Fan extends Device
-{
-
-	@Override
-	public void turnOn() {
-		System.out.println("Fan is turned on");
-		
+	public static void main(String args[])
+	{
+		Device d=new Fan();
+		d.turnOn();
+		d.turnOff();
+		Device d1=new light();
+		d1.turnOn();
+		d1.turnOff();
+		Speaker d2=new Speaker();
+		d2.turnOn();
+		d2.connectToWifi();
+		d2.turnOff();
 	}
+}
+interface Device
+{
+	
+	 void turnOn();//here the abstract is not compulsory.
+	 void turnOff();
+	
+}
+interface BluetoothDevice
+{
+	void connectToWifi();
+	
+}
+class Speaker implements Device, BluetoothDevice
+{
 
-	@Override
+	public void turnOn() {
+		System.out.println("Spearker is turned on");	
+	}
+	public void connectToWifi() {
+		System.out.println("Connected Successfull with wifi");	
+	}
+	public void turnOff() {
+		System.out.println("Spearker is turned off");	
+	}
+}
+class Fan implements Device
+{
+	public void turnOn() {
+		System.out.println("Fan is turned on");	
+	}
 	public void turnOff() {
 
-		System.out.println("Fan is turned off");
-		
+		System.out.println("Fan is turned off");	
 	}
 	
 }
-class light extends Device
+class light implements Device
 {
 
-	@Override
 	public void turnOn() {
 		System.out.println("light is turned on");
 		
 	}
 
-	@Override
 	public void turnOff() {
 		System.out.println("light is turned off");
 		

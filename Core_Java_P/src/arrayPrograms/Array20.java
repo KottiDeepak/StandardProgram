@@ -12,7 +12,7 @@ public class Array20 {
 		for (int i = 0; i < a.length; i++) {
 			a[i] = sc.nextInt();
 		}
-		boolean repeated = false;
+		int count=0;
 		for(int i=0;i<=a.length-1;i++)
 		{
 			boolean isPreviouslyPresent= false;
@@ -24,17 +24,16 @@ public class Array20 {
 					break;
 				}
 			}
-			if(isPreviouslyPresent==true)
+			
+			
+			if(isPreviouslyPresent==false)
 			{
-				repeated=true;
-				System.out.println("first reapeadted element "+a[i]);
-				break;
+				
+				count++;
 			}
 		}
-		if(repeated==false)
-		{
-			System.out.println("No array elements are repeated");
-		}
+		System.out.println("Count of distinct elements = "+count);
+		
 		
 	}
 }

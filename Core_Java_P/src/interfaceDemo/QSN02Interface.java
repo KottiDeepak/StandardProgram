@@ -1,8 +1,6 @@
 package interfaceDemo;
 
 import java.util.Scanner;
-
-import interfaceDemo.MessageFactory.MessageService;
  class QSN02Interface 
 {
 	

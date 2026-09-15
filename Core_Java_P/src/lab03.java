@@ -26,7 +26,7 @@ class Employee
 	}
 }
 class Bonus extends Employee
-{4
+{
 
 	public Bonus(String empname, int salary) {
 		super(empname, salary);

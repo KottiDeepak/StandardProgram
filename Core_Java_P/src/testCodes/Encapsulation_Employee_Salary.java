@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Encapsulation_Employee_Salary {
 	public static void main(String args[])
 	{
-		Scanner sc=new Scanner(System.in);=-
+		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the id :");
 		int employeeId=sc.nextInt();
 		System.out.println("enter the name :");

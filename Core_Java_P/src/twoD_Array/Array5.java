@@ -18,6 +18,7 @@ public class Array5 {
 				a[i][j]=sc.nextInt();
 			}
 		}
+	
 		System.out.println("given matrix is : ");
 		for (int i = 0; i <= a.length - 1; i++) {
 			for (int j = 0; j <= a[i].length - 1; j++) {

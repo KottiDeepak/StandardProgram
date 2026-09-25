@@ -47,6 +47,7 @@ public class Array16 {
 		{
 			for ( int j=0;j<c[i].length;j++)
 			{
+				
 				System.out.print(c[i][j]+" ");
 			}
 			System.out.println();

@@ -1,4 +1,4 @@
-//java program to substract two matrix
+//java program to Subtract two matrix
 
 package twoD_Array;
 
